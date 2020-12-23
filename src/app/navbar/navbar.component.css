@@ -1,0 +1,70 @@
+#topLogo{
+    width: 200px;
+}
+
+#searchIcon{
+    color:white;
+    vertical-align: middle;
+    align-self: left;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: white;
+}
+#searchBox{
+    margin-left: 50px;
+    color:white;
+}
+
+#search{
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 180px;
+    height: 35px;
+    margin-left: 50px;
+    background-color: #181c22;
+    color: white;
+}
+
+#steamLogin{
+    margin-left: auto;
+    margin-right: 20px;
+    height: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.spacer{
+    width: 8vw;
+}
+
+.nonCopyable{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Linespacer{
+    color: white;
+    vertical-align: middle;
+    font-size: larger;
+}
+
+#updatesBar{
+    height: 35px;
+    border-top: solid 1px white;
+}
+
+#holder{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#icon{
+    color: white;
+    vertical-align: middle;
+    margin-right: 5px;
+}

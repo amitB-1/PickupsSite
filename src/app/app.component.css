@@ -1,0 +1,133 @@
+footer{
+    position:fixed;
+    bottom:0px;
+    color: gray;
+    background-color:#121519;
+    text-indent: 2px;
+    line-height: 30px;
+    width:100%;
+    height: 30px;
+    z-index: 100;
+}
+
+#playLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#teamspeak{
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#discord{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    height: 89px;
+    width: 300px;
+    cursor: pointer;
+}
+
+#steamLogo{
+    display: block;
+    height: 89px;
+    width: 300px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+#topCon{
+    display: block;
+    top: 27%;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(10%);
+}
+
+#logoHolder{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translateX(85%);
+    display: block;
+    width: 360px;
+}
+
+.top{
+    position: absolute;
+    left: 50%;
+    transform: translateX(210%);
+    color:white;
+    vertical-align: middle;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+#top-1{
+    display: block;
+    width: 300px;
+    height: 90px;
+    margin-bottom: 20px;
+    background: rgb(18,21,25);
+    background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
+}
+
+#top-2{
+    display: block;
+    width: 300px;
+    height: 90px;
+    margin-bottom: 20px;
+    background: rgb(18,21,25);
+    background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
+}
+
+#top-3{
+    display: block;
+    width: 300px;
+    height: 90px;
+    margin-bottom: 20px;
+    background: rgb(18,21,25);
+    background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
+}
+
+.name{
+    color: white;
+    font-size: large;
+}
+
+.avatar{
+    background-repeat: no-repeat;
+    background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4a/4a1eae8438b22291725ca1f16dcef11958f3a198_medium.jpg");
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+}
+
+#avatar1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-200%);
+    top: 0%;
+}
+
+#avatar2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-200%);
+    top: 33%;
+}
+
+#avatar3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-200%);
+    top: 66%;
+}
