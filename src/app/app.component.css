@@ -44,7 +44,7 @@ footer{
     display: block;
     top: 27%;
     width: 300px;
-    position: absolute;
+    position: fixed;
     left: 50%;
     transform: translateX(10%);
 }

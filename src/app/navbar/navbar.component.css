@@ -38,6 +38,14 @@
     width: 8vw;
 }
 
+a:visited{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
 .nonCopyable{
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -56,6 +64,7 @@
 #updatesBar{
     height: 35px;
     border-top: solid 1px white;
+    margin-bottom: 30px;
 }
 
 #holder{
@@ -67,4 +76,7 @@
     color: white;
     vertical-align: middle;
     margin-right: 5px;
+    margin-bottom: 3px;
+    transform: rotate(180deg);
+    transform: rotateY(180deg);
 }
