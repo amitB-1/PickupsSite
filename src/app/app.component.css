@@ -53,7 +53,29 @@ footer{
     height: auto;
 }
 
-#name-wrapper{
+#name-2-wrapper{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#name-3-wrapper{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#name1-wrapper{
+    width: 300px;
+    height: auto;
+}
+
+#name2-wrapper{
+    width: 300px;
+    height: auto;
+}
+
+#name3-wrapper{
     width: 300px;
     height: auto;
 }
@@ -74,13 +96,47 @@ footer{
     float: left;
 }
 
+#name-2{
+    margin-left: 5px;
+    float: left;
+}
+
+#name-3{
+    margin-left: 5px;
+    float: left;
+}
+
 #rank-1{
     float: left;
     margin-right: auto;
     margin-left: 5px;
 }
 
+#rank-2{
+    float: left;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+#rank-3{
+    float: left;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
 #rating-1{
+    float: left;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+#rating-2{
+    float: left;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+#rating-3{
     float: left;
     margin-right: auto;
     margin-left: 5px;
@@ -115,8 +171,8 @@ footer{
 }
 
 .topCorner{
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 50%;
+    border-bottom-left-radius: 46px;
+    border-top-left-radius: 46px;
 }
 
 #top-2{
