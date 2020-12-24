@@ -39,34 +39,70 @@ footer{
     cursor: pointer;
 }
 
+#wrapper{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+#name-1-wrapper{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#name-wrapper{
+    width: 300px;
+    height: auto;
+}
 
 #topCon{
-    display: block;
-    top: 27%;
+    margin-left: auto;
     width: 300px;
-    position: fixed;
-    left: 50%;
-    transform: translateX(10%);
+    float: right;
+}
+
+.name{
+    color: white;
+    font-size: large;
+}
+
+#name-1{
+    margin-left: 5px;
+    float: left;
+}
+
+#rank-1{
+    float: left;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+#rating-1{
+    float: left;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+#name-top-wrapper{
+    width: 100px;
+    height: auto;
 }
 
 #logoHolder{
-    position: absolute;
-    top: 27%;
-    left: 50%;
-    transform: translateX(85%);
-    display: block;
     width: 360px;
+    float: right;
 }
 
 .top{
-    position: absolute;
-    left: 50%;
-    transform: translateX(210%);
     color:white;
     vertical-align: middle;
     line-height: 40px;
     text-align: right;
     margin-right: 25px;
+    float: right;
 }
 
 #top-1{
@@ -76,6 +112,11 @@ footer{
     margin-bottom: 20px;
     background: rgb(18,21,25);
     background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
+}
+
+.topCorner{
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 #top-2{
@@ -109,25 +150,23 @@ footer{
     width: 90px;
     height: 90px;
     background-size: cover;
+    float: left;
 }
 
-#avatar1{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-200%);
-    top: 0%;
+#avatar1{  
 }
+
+.nonCopyable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
 #avatar2{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-200%);
-    top: 33%;
 }
 
 #avatar3{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-200%);
-    top: 66%;
 }
