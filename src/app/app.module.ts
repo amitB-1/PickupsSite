@@ -11,6 +11,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
+import {HttpClientModule} from '@angular/common/http';
+
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
     MatButtonModule,
     MatIconModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

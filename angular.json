@@ -29,7 +29,11 @@
             ],
             "styles": [
               "src/custom-theme.scss",
-              "src/styles.css"
+              "src/styles.css",
+              "../pickupSite/node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
+              "../pickupSite/node_modules/@fortawesome/fontawesome-free/scss/brands.scss",
+              "../pickupSite/node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
+              "../pickupSite/node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
             "scripts": []
           },

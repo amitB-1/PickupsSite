@@ -4,9 +4,9 @@ footer{
     color: gray;
     background-color:#121519;
     text-indent: 2px;
-    line-height: 30px;
+    line-height: 33px;
     width:100%;
-    height: 30px;
+    height: 35px;
     z-index: 100;
 }
 
@@ -20,23 +20,31 @@ footer{
     display: block;
     margin-bottom: 20px;
     cursor: pointer;
+    margin-left: auto;
+}
+
+#adCon{
+    float: left;
+    width: 300px;
 }
 
 #discord{
     display: block;
+    margin-top: 8px;
     margin-bottom: 20px;
     margin-left: auto;
-    height: 89px;
-    width: 300px;
     cursor: pointer;
+}
+
+.images-left{
+    margin-bottom: 20px;
 }
 
 #steamLogo{
     display: block;
-    height: 89px;
-    width: 300px;
     margin-left: auto;
     cursor: pointer;
+    margin-top: 28px;
 }
 
 #wrapper{
@@ -45,7 +53,9 @@ footer{
     margin-right: auto;
     overflow: hidden;
     margin-top: 40px;
+    margin-bottom: 35px;
 }
+
 
 #name-1-wrapper{
     float: right;
@@ -91,55 +101,46 @@ footer{
     font-size: large;
 }
 
-#name-1{
+.nameFix{
     margin-left: 5px;
     float: left;
 }
 
-#name-2{
-    margin-left: 5px;
-    float: left;
-}
-
-#name-3{
-    margin-left: 5px;
-    float: left;
-}
-
-#rank-1{
+.rank{
     float: left;
     margin-right: auto;
     margin-left: 5px;
 }
 
-#rank-2{
+.rating{
     float: left;
     margin-right: auto;
     margin-left: 5px;
 }
 
-#rank-3{
-    float: left;
-    margin-right: auto;
-    margin-left: 5px;
+#moreInfo{
+    float: right;
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+    background: rgb(18,21,25);
+    background: linear-gradient(100deg, rgba(18,21,25,1) 0%, rgba(17,42,63,1) 0%, rgba(16,65,106,1) 0%, rgba(15,119,204,1) 0%);
+    margin-left: 75px;
+    margin-right: 110px;
+
 }
 
-#rating-1{
-    float: left;
-    margin-right: auto;
-    margin-left: 5px;
+#explanationText{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+
 }
 
-#rating-2{
-    float: left;
-    margin-right: auto;
-    margin-left: 5px;
-}
-
-#rating-3{
-    float: left;
-    margin-right: auto;
-    margin-left: 5px;
+.infoHeader{
+    color: white;
+    font-size: medium;
 }
 
 #name-top-wrapper{
@@ -159,6 +160,7 @@ footer{
     text-align: right;
     margin-right: 25px;
     float: right;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #top-1{
@@ -170,6 +172,14 @@ footer{
     background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
 }
 
+#spacer{
+    height: 235px;
+}
+
+#copyRight{
+    margin-right: 65%;
+}
+
 .topCorner{
     border-bottom-left-radius: 46px;
     border-top-left-radius: 46px;
@@ -179,15 +189,31 @@ footer{
     display: block;
     width: 300px;
     height: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
     background: rgb(18,21,25);
     background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
+}
+
+#pickupExpl{
+    font-size: medium;
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#explText-con{
+    position: absolute;
+    height: 270px;
+    width: 290px;
+    left: 50%;
+    transform: translateX(-112%);
 }
 
 #top-3{
     display: block;
     width: 300px;
-    height: 90px;
+    height: 88px;
     margin-bottom: 20px;
     background: rgb(18,21,25);
     background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
@@ -209,9 +235,6 @@ footer{
     float: left;
 }
 
-#avatar1{  
-}
-
 .nonCopyable{
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -219,10 +242,339 @@ footer{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-
-#avatar2{
 }
 
-#avatar3{
+#steamMini{
+    float: right;
+    margin-right: 15px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#steamMini:hover{
+    transition: 0.1s;
+    color: rgb(15,119,204);
+}
+
+.secondaryIcons{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#instagramMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#instagramMini:hover{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#youtubeMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#youtubeMini:hover{
+    transition: 0.1s;
+    color:#bb0000;;
+}
+
+#twitterMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#twitterMini:hover{
+    transition: 0.1s;
+    color: #00aced;
+}
+
+#twitchMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#twitchMini:hover{
+    transition: 0.1s;
+    color: rgb(145, 56, 247);
+}
+
+#facebookMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#facebookMini:hover{
+    transition: 0.1s;
+    color:#3b5998;
+}
+
+#recentGames-wrapper{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 310px;
+    background-color:#435971;
+    border-radius: 2px;
+}
+
+
+#recentGames-header{
+    color: white;
+    text-align: center;
+    transform: translateY(10px);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p{
+    display: inline;
+}
+
+#recentGames-date-ind{
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+
+#recentGames-score-ind{
+    color: white;
+    margin-left: 20%;
+}
+
+#recentGames-map-ind{
+    color: white;
+    margin-left: 60%;
+}
+
+.recentGames-game-div{
+    margin-left: 60px;
+    margin-right: auto;
+    width: 88.5%;
+    height: 50px;
+    background-color:#2d3844;
+    cursor: pointer;
+}
+
+.recentGames-game-div:hover{
+    transition: 0.25s;
+    background-color: #28415c;
+}
+
+#first-game-date{
+    margin-left: 2px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-1-team{
+    margin-left: 15.5%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-1-team em{
+    color: #5dbb29;
+}
+
+#first-game-team-spacer{
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-2-team{
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-2-team em{
+    color: #cb2a1e;
+}
+
+#first-game-map-name{
+    margin-left: 30%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-map{
+    width: 88px;
+    float: right;
+}
+
+#second-game-date{
+    margin-left: 2px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-1-team{
+    margin-left: 15.5%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-1-team em{
+    color: #5dbb29;
+}
+
+#second-game-team-spacer{
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-2-team{
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-2-team em{
+    color:#cb2a1e;
+}
+
+#second-game-map-name{
+    margin-left: 30%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-map{
+    width: 88px;
+    float: right;
+}
+
+#third-game-date{
+    margin-left: 2px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-1-team{
+    margin-left: 15.5%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-1-team em{
+    color:#5dbb29;
+}
+
+#third-game-team-spacer{
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-2-team{
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-2-team em{
+    color: #cb2a1e;
+}
+
+#third-game-map-name{
+    margin-left: 29.3%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-map{
+    width: 88px;
+    float: right;
+}
+
+
+#fourth-game-date{
+    margin-left: 2px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-1-team{
+    margin-left: 15.5%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-1-team em{
+    color: #5dbb29;
+}
+
+#fourth-game-team-spacer{
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-2-team{
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-2-team em{
+    color: #cb2a1e;
+}
+
+#fourth-game-map-name{
+    margin-left: 29.3%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-map{
+    width: 88px;
+    float: right;
 }
