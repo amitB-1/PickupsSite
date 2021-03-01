@@ -1,5 +1,5 @@
 <mat-toolbar id="navbar"color='primary'>
-    <a href="/"><img id="topLogo" src="../../assets/topLogo.png" class="nonCopyable"></a>
+    <a href="/" routerLink="/home"><img id="topLogo" src="././assets/topLogo.png" class="nonCopyable"></a>
     
     <!--<input id="search" maxlength="40" type="text">
     <mat-icon id="searchIcon">search</mat-icon>-->
@@ -9,16 +9,16 @@
     </mat-form-field>
     <div class='spacer'></div>
     <div class='Linespacer nonCopyable'>|</div>
-    <a mat-button style="color: white;" target="_blank" href="https://bans.play-il.co.il/csgo/bans">SOURCEBANS</a>
+    <a mat-button style="color: white;" target="_blank" href="https://bans.play-il.co.il/csgo/">SOURCEBANS</a>
     <div class='Linespacer nonCopyable'>|</div>
     <a mat-button style="color: white;" target="_blank" href="https://forum.play-il.co.il/node/2775542">FORUM</a>
     <div class='Linespacer nonCopyable'>|</div>
-    <a mat-button style="color: white;" target="_blank" href="">RULES</a>
+    <a mat-button style="color: white;" routerLink="rules">RULES</a>
     <div class='Linespacer nonCopyable'>|</div>
-    <a mat-button style="color: white;">LATEST GAMES</a>
+    <a mat-button style="color: white;" routerLink="latestgames">LATEST GAMES</a>
     <div class='Linespacer nonCopyable'>|</div>
-    <a mat-button style="color: white;">LEADERBOARD</a>
-    <img id="steamLogin" class="nonCopyable" src="../../assets/Steam.png">
+    <a mat-button style="color: white;" routerLink="leaderboard">LEADERBOARD</a>
+    <img id="steamLogin" class="nonCopyable" src="././assets/Steam.png">
 </mat-toolbar>
 
 <mat-toolbar id="updatesBar" class="nonCopyable" color='primary'>

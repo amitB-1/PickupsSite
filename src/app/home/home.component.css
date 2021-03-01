@@ -1,0 +1,590 @@
+footer{
+    position:fixed;
+    bottom:0px;
+    color: gray;
+    background-color:#121519;
+    text-indent: 2px;
+    line-height: 33px;
+    width:100%;
+    height: 35px;
+    z-index: 100;
+}
+
+#playLogo{
+  display: block;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-right: auto;
+}
+
+#teamspeak{
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+#adCon{
+    float: left;
+    width: 300px;
+}
+
+#discord{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.images-left{
+    margin-bottom: 20px;
+}
+
+#steamLogo{
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    margin-top: 28px;
+}
+
+#wrapper{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+
+#name-1-wrapper{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#name-2-wrapper{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#name-3-wrapper{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#name1-wrapper{
+    width: 300px;
+    height: auto;
+}
+
+#name2-wrapper{
+    width: 300px;
+    height: auto;
+}
+
+#name3-wrapper{
+    width: 300px;
+    height: auto;
+}
+
+#topCon{
+    margin-left: auto;
+    width: 300px;
+    float: right;
+}
+
+.name{
+    color: white;
+    font-size: large;
+}
+
+.nameFix{
+    margin-left: 5px;
+    float: left;
+}
+
+.rank{
+    float: left;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.rating{
+    float: left;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+#moreInfo{
+    float: right;
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+    background: rgb(18,21,25);
+    background: linear-gradient(100deg, rgba(18,21,25,1) 0%, rgba(17,42,63,1) 0%, rgba(16,65,106,1) 0%, rgba(15,119,204,1) 0%);
+    margin-left: 75px;
+    margin-right: 110px;
+
+}
+
+#explanationText{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.infoHeader{
+    color: white;
+    font-size: medium;
+}
+
+#name-top-wrapper{
+    width: 100px;
+    height: auto;
+}
+
+#logoHolder{
+    width: 360px;
+    float: right;
+}
+
+.top{
+    color:white;
+    vertical-align: middle;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 25px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#top-1{
+    display: block;
+    width: 300px;
+    height: 90px;
+    margin-bottom: 20px;
+    background: rgb(18,21,25);
+    background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
+}
+
+#spacer{
+    height: 235px;
+}
+
+#copyRight{
+    margin-right: 65%;
+}
+
+.topCorner{
+    border-bottom-left-radius: 46px;
+    border-top-left-radius: 46px;
+}
+
+#top-2{
+    display: block;
+    width: 300px;
+    height: 90px;
+    margin-bottom: 21px;
+    background: rgb(18,21,25);
+    background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
+}
+
+#pickupExpl{
+    font-size: medium;
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#explText-con{
+    position: absolute;
+    height: 270px;
+    width: 290px;
+    left: 50%;
+    transform: translateX(-112%);
+}
+
+#top-3{
+    display: block;
+    width: 300px;
+    height: 88px;
+    margin-bottom: 20px;
+    background: rgb(18,21,25);
+    background: linear-gradient(100deg, rgba(18,21,25,1) 69%, rgba(15,119,204,1) 69%);
+}
+
+.name{
+    color: white;
+    font-size: large;
+}
+
+.avatar{
+    background-repeat: no-repeat;
+    background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4a/4a1eae8438b22291725ca1f16dcef11958f3a198_medium.jpg");
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    float: left;
+}
+
+.nonCopyable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#steamMini{
+    float: right;
+    margin-right: 15px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#steamMini:hover{
+    transition: 0.1s;
+    color: rgb(15,119,204);
+}
+
+.secondaryIcons{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#instagramMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#instagramMini:hover{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#youtubeMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#youtubeMini:hover{
+    transition: 0.1s;
+    color:#bb0000;;
+}
+
+#twitterMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#twitterMini:hover{
+    transition: 0.1s;
+    color: #00aced;
+}
+
+#twitchMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#twitchMini:hover{
+    transition: 0.1s;
+    color: rgb(145, 56, 247);
+}
+
+#facebookMini{
+    float: right;
+    margin-right: 9px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#facebookMini:hover{
+    transition: 0.1s;
+    color:#3b5998;
+}
+
+#recentGames-wrapper{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 310px;
+    background-color:#435971;
+    border-radius: 2px;
+}
+
+
+#recentGames-header{
+    color: white;
+    text-align: center;
+    transform: translateY(10px);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p{
+    display: inline;
+}
+
+#recentGames-date-ind{
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+
+#recentGames-score-ind{
+    color: white;
+    margin-left: 20%;
+}
+
+#recentGames-map-ind{
+    color: white;
+    margin-left: 60%;
+}
+
+.recentGames-game-div{
+    margin-left: 60px;
+    margin-right: auto;
+    width: 88.5%;
+    height: 50px;
+    background-color:#2d3844;
+    cursor: pointer;
+}
+
+.recentGames-game-div:hover{
+    transition: 0.25s;
+    background-color: #28415c;
+}
+
+#first-game-date{
+    margin-left: 2px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-1-team{
+    margin-left: 15.5%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-1-team em{
+    color: #5dbb29;
+    font-weight: bold;
+}
+
+#first-game-team-spacer{
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-2-team{
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-2-team em{
+    color: #cb2a1e;
+    font-weight: bold;
+}
+
+#first-game-map-name{
+    margin-left: 30%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#first-game-map{
+    width: 88px;
+    float: right;
+}
+
+#second-game-date{
+    margin-left: 2px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-1-team{
+    margin-left: 15.5%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-1-team em{
+    color: #5dbb29;
+    font-weight: bold;
+}
+
+#second-game-team-spacer{
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-2-team{
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-2-team em{
+    color:#cb2a1e;
+    font-weight: bold;
+}
+
+#second-game-map-name{
+    margin-left: 30%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#second-game-map{
+    width: 88px;
+    float: right;
+}
+
+#third-game-date{
+    margin-left: 2px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-1-team{
+    margin-left: 15.5%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-1-team em{
+    color:#5dbb29;
+    font-weight: bold;
+}
+
+#third-game-team-spacer{
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-2-team{
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-2-team em{
+    color: #cb2a1e;
+    font-weight: bold;
+}
+
+#third-game-map-name{
+    margin-left: 29.3%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#third-game-map{
+    width: 88px;
+    float: right;
+}
+
+
+#fourth-game-date{
+    margin-left: 2px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-1-team{
+    margin-left: 15.5%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-1-team em{
+    color: #5dbb29;
+    font-weight: bold;
+}
+
+#fourth-game-team-spacer{
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-2-team{
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-2-team em{
+    color: #cb2a1e;
+    font-weight: bold;
+}
+
+#fourth-game-map-name{
+    margin-left: 29.3%;
+    position: relative;
+    color: white;
+    top: 31%;
+}
+
+#fourth-game-map{
+    width: 88px;
+    float: right;
+}

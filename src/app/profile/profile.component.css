@@ -1,0 +1,251 @@
+#top-profile-background{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 272px;
+}
+
+#report-btn{
+    color: gray;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+  }
+  
+  /* Bottom left text */
+  .bottom-left-name {
+    cursor: pointer;
+    position: absolute;
+    height: 25px;
+    width: 120px;
+    background-color: #121519;
+    color: gray;
+    line-height: 25px;
+    bottom: 5px;
+    left: 1px;
+    font-size: medium;
+    
+  }
+
+  .bottom-left-steam-id{
+    cursor: pointer;
+    width: 185px;
+    height: 25px;
+    font-size: medium;
+    position: absolute;
+    bottom: 5px;
+    line-height: 25px;
+    left: 120px;
+    background-color: #121519;
+    color: gray;
+  }
+  
+  #profile-pic{
+    background-repeat: no-repeat;
+    background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4a/4a1eae8438b22291725ca1f16dcef11958f3a198_medium.jpg");
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    position: absolute;
+    left: 439px;
+    top: 80px;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    cursor: pointer;
+    line-height: 25px;
+    width: 80px;
+    height: 25px;
+    background-color: #121519;
+    color: gray;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    font-size: medium;
+  }
+
+.nonCopyable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#stats-container{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 90px;
+    background-color:#435971;
+}
+
+
+.stats{
+    margin-top: 40px;
+    color: white;
+    float: left;
+    font-weight: bold;
+}
+
+#recent{
+    margin-top: 40px;
+    float: left;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#recent em{
+    margin-left: 3px;
+}
+
+#first-result{
+    color: #5dbb29;
+}
+
+#second-result{
+    color: #5dbb29;
+}
+
+#third-result{
+    color: #5dbb29;
+}
+
+#fourth-result{
+    color: #cb2a1e;
+}
+
+#fifth-result{
+    color: #5dbb29;
+}
+
+
+#rank{
+    margin-left: 34px;
+}
+
+#rating{
+    margin-left: 38px;
+}
+
+#winrate{
+    margin-left: 89px;
+}
+
+.stats-ind{
+    display: inline;
+    color: white;
+    position: relative;
+    top: 25px;
+}
+
+#stats-rank-ind{
+    margin-left: 59px;
+}
+
+#stats-rating-ind{
+    margin-left: 55px;
+}
+
+#stats-winrate-ind{
+    margin-left: 55px;
+}
+
+#stats-recent-ind{
+    margin-left: 55px;
+}
+
+#stats-kdr-ind{
+    margin-left: 55px;
+}
+
+#stats-headshot-ind{
+    margin-left: 55px;
+}
+
+#stats-adr-ind{
+    margin-left: 55px;
+}
+
+#stats-kpr-ind{
+    margin-left: 55px;
+}
+
+#stats-matches-ind{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+#player-stats{
+    width: 1000px;
+}
+
+#player-stats th{
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+
+#player-stats {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#player-stats td, #player-stats th {
+    padding: 8px;
+}
+
+#player-stats th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: white;
+}
+
+#player-stats td{
+    text-align: center;
+    color: white;
+}
+
+em{
+    padding-left: 4px;
+}
+
+#first{
+    color:#5dbb29;
+}
+
+#second{
+    color:#5dbb29;
+}
+
+#third{
+    color:#5dbb29;
+}
+
+#fourth{
+    color:#cb2a1e;
+}
+
+#fifth{
+    color:#5dbb29;
+}
